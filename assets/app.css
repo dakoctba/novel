@@ -9,6 +9,7 @@ body {
 	padding-bottom: 70px;
 	
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 	color: #000000;
 }
 header {
@@ -46,8 +47,21 @@ textarea {
 .form-control {
 	display: inline;
 	width: auto;
+	font-size: 12px;
 }
 .panel {
-	border-radius: 10px !important;
+	border-radius: 10px 0px 10px 10px;
 	box-shadow: 0px 0px 7px rgba(0,0,0,.15);
+}
+ul.nav-links.nav-pills {
+    background-color: #f0ad4e;
+    border-radius: 0px 0px 0px 5px;
+    margin: -15px;
+}
+.nav-links>li>a {
+	color: #ffffff;
+	padding: 5px 10px;
+}
+.nav-links>li>a:focus, .nav-links>li>a:hover {
+	background-color: #ec971f;
 }
