@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+}
+body {
+	background-size: 20px 20px;
+	background-image: linear-gradient(to right, #e0e3e3 1px, transparent 1px), linear-gradient(to bottom, #e0e3e3 1px, transparent 1px);
+	background-color: #f1f4f5;
+
+	padding-bottom: 70px;
+	
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+}
+header {
+	text-align: center;
+	border: 1px solid #e0e3e3;
+	background-color: #ffffff;
+}
+h1 {
+	font-size: 48px;
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-weight: 100;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+/* custom bootstrap */
+.navbar-bottom {
+	margin-right: 10px;
+}
+.navbar-bottom .btn {
+	margin-top: 8px;
+}
+label {
+	font-weight: 100;
+	min-width: 10%;
+	vertical-align: top;
+}
+textarea {
+	min-width: 80%;
+}
+.form-control {
+	display: inline;
+	width: auto;
+}
+.panel {
+	border-radius: 10px !important;
+	box-shadow: 0px 0px 7px rgba(0,0,0,.15);
+}

@@ -1,43 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>novel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic|Droid+Sans|Raleway:100|Roboto+Mono" rel="stylesheet">
-	<style>
-		html {
-			height: 100%;
-		}
-		body {
- 			background-size: 20px 20px;
-    	background-image: linear-gradient(to right, #e0e3e3 1px, transparent 1px), linear-gradient(to bottom, #e0e3e3 1px, transparent 1px);
-
-			font-family: 'Open Sans', sans-serif;
-			color: #000000;
-		}
-		header {
-			text-align: center;
-			border: 1px solid #e0e3e3;
-			background-color: #ffffff;
-		}
-		h1 {
-			font-size: 48px;
-			font-family: 'Raleway', sans-serif;
-			color: #000000;
-			font-weight: 100;
-		}
-		h4 {
-		    font-size: 18px;
-		    font-weight: 300;
-		    margin-bottom: 16px;
-		    margin-top: 16px;
-		}			
-	</style>
+	<link href="assets/app.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<h1>novel</h1>
+	
+	<nav class="navbar navbar-default navbar-static-top">
+	  <div class="container-fluid">
 
-		<h4>novel is under construction</h4>
-	</header>
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">novel</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- texts & questions -->
+	<div class="container-fluid">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Type</label>
+								<select class="form-control">
+								  <option selected="selected">Text</option>
+								  <option>Multiple</option>
+								  <option>Select</option>
+								  <option>Question</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label>Text</label>
+								<textarea class="form-control" rows="2">Oi, eu sou o Warren. Parabéns por se preocupar em investir bem. Investir pode parecer complexo, mas eu estou aqui para te ajudar a chegar lá.</textarea>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+
+						<ul class="nav nav-pills pull-right">
+						  <li role="presentation"><a href="#">Options</a></li>
+						  <li role="presentation"><a href="#">Connections</a></li>
+						</ul>
+
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Type</label>
+								<select class="form-control">
+								  <option>Text</option>
+								  <option>Multiple</option>
+								  <option>Select</option>
+								  <option selected="selected">Question</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label>Text</label>
+								<textarea class="form-control" rows="2">Antes de começarmos, como posso te chamar? :)</textarea>
+							</div>
+
+							<div class="form-group">
+								<label for="exampleInputEmail1">Variable</label>
+								<select class="form-control">
+								  <option selected="selected">$name</option>
+								  <option>$yearsOld</option>
+								  <option>$grade</option>
+								</select>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputEmail1">Type</label>
+								<select class="form-control">
+								  <option selected="selected">Text</option>
+								  <option>Multiple</option>
+								  <option>Select</option>
+								  <option>Question</option>
+								</select>
+							</div>
+
+							<div class="form-group">
+								<label>Text</label>
+								<textarea class="form-control" rows="2">Antes de começarmos, como posso te chamar? :)</textarea>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- bottom -->
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	  <div class="container-fluid">
+	  	<div class="navbar-bottom">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Link</a></li>
+	        <li><button class="btn btn-success">Salvar</button></li>
+	      </ul>
+		  </div>
+	  </div>
+	</nav>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
