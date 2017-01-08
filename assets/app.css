@@ -2,12 +2,12 @@ html {
 	height: 100%;
 }
 body {
-	background-size: 20px 20px;
+	background-size: 14px 14px;
 	background-image: linear-gradient(to right, #e0e3e3 1px, transparent 1px), linear-gradient(to bottom, #e0e3e3 1px, transparent 1px);
 	background-color: #f1f4f5;
 
 	padding-bottom: 70px;
-	
+
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	color: #000000;
