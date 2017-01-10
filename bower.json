@@ -1,0 +1,17 @@
+{
+  "name": "novel",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jackson Teixeira <jackson.s.teixeira@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dakoctba/novel",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
