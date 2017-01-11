@@ -10,8 +10,8 @@ jsPlumb.ready(function() {
 	  },
 	  DragOptions : { cursor: "crosshair" },
 	  Endpoints : [
-	  	[ "Dot", { radius: 4 } ],
-	  	[ "Dot", { radius: 4 }]],
+	  	[ "Blank", { radius: 0 } ],
+	  	[ "Blank", { radius: 0 }]],
 	  EndpointStyles : [
 	  	{ fill:"#8e8e8e" },
 	  	{ fill:"#8e8e8e" }]
@@ -23,56 +23,83 @@ jsPlumb.ready(function() {
 	jsPlumb.connect({
 		source: item_1,
 		target: item_2,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});
 
 	jsPlumb.connect({
 		source: item_2,
 		target: item_3,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});	
 
 	jsPlumb.connect({
 		source: item_3,
 		target: item_4,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});	
 
 	jsPlumb.connect({
 		source: item_4,
 		target: item_5,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});
 
 	jsPlumb.connect({
 		source: item_4,
 		target: item_6,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});
 
 	jsPlumb.connect({
 		source: item_4,
 		target: item_7,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});	
 
 
 	jsPlumb.connect({
 		source: item_5,
 		target: item_8,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});
 
 	jsPlumb.connect({
 		source: item_6,
 		target: item_8,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});
 
 	jsPlumb.connect({
 		source: item_7,
 		target: item_8,
-		anchors:["Continuous","Continuous"]
+		anchors:["Continuous","Continuous"],
+		overlays:[
+    		["PlainArrow", {width:7, length:7, location:[0, 0]}]
+  		]
 	});	
 
 
