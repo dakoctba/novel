@@ -39,6 +39,9 @@ h4 {
 .navbar-default .navbar-brand {
     color: #ffffff;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
@@ -94,3 +97,8 @@ ul.nav-links.nav-pills {
     margin-bottom: 80px;
 }
 /************* hardcode *************/
+
+/* app */
+#content {
+	margin-top: 70px;
+}
