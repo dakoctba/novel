@@ -30,6 +30,28 @@ h4 {
 	margin-top: 16px;
 }
 /* custom bootstrap */
+.navbar-default {
+    background-color: #666699;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+/***/
 .navbar-bottom {
 	margin-right: 10px;
 }
