@@ -6,12 +6,84 @@ body {
 	background-image: linear-gradient(to right, #e0e3e3 1px, transparent 1px), linear-gradient(to bottom, #e0e3e3 1px, transparent 1px);
 	background-color: #f1f4f5;
 
-	padding-bottom: 70px;
-
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	color: #000000;
+	color: #333333;
+
+	margin: 0px;
+	padding: 0px;
+
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 }
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	flex: 1;
+}
+header {
+	background-color: #666699;
+	margin: 0px;
+	padding: 5px 10px;
+}
+header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	font-weight: 100;
+	text-decoration: none;
+}
+.content {
+	padding: 0px 40px;
+}
+.content .box {
+	width: 400px;
+	height: 150px;
+
+	margin: 40px 0px;
+	padding: 20px;
+
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 7px rgba(0,0,0,.15);
+}
+.content .box .box-id {
+	margin: -20px 0px 10px -20px;
+	padding: 10px;
+	border-radius: 10px 0px 0px 0px;
+
+	background-color: tomato;
+}
+
+footer {
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+footer a, footer a:hover, footer a:focus, footer a:active {
+	color: #6699cc;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
+/* forms ***************************************************************/
+button, input, textarea, select {
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #333333;
+
+	margin: 5px;
+	border-radius: 5px;
+}
+
+
+/************************************************************************
 header {
 	text-align: center;
 	border: 1px solid #e0e3e3;
@@ -29,7 +101,6 @@ h4 {
 	margin-bottom: 16px;
 	margin-top: 16px;
 }
-/* custom bootstrap */
 .navbar-default {
     background-color: #666699;
 }
@@ -54,7 +125,6 @@ h4 {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
 }
-/***/
 .navbar-bottom {
 	margin-right: 10px;
 }
@@ -74,10 +144,7 @@ textarea {
 	width: auto;
 	font-size: 12px;
 }
-.panel {
-	border-radius: 10px 0px 10px 10px;
-	box-shadow: 0px 0px 7px rgba(0,0,0,.15);
-}
+
 ul.nav-links.nav-pills {
     background-color: #f0ad4e;
     border-radius: 0px 0px 0px 5px;
@@ -92,13 +159,9 @@ ul.nav-links.nav-pills {
 }
 
 
-/************* hardcode *************/
-.panel {
-    margin-bottom: 80px;
-}
-/************* hardcode *************/
 
-/* app */
 #content {
 	margin-top: 70px;
 }
+
+************************************************************************/
