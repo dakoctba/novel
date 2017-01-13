@@ -1,9 +1,16 @@
-var $draggable = $('.draggable').draggabilly({
+var $draggable = $('.box').draggabilly({
 	containment: '.content',
 	grid: [14, 14]
 })
 
-/*
+$draggable.on('dragMove', function(event, pointer, moveVector) {
+  jsPlumb.repaintEverything();
+});
+
+$draggable.on( 'dragEnd', function( event, pointer ) {
+	jsPlumb.repaintEverything();
+})
+
 jsPlumb.ready(function() {
 	//jsPlumb.setContainer($("#content"));
 	jsPlumb.setContainer("content");
@@ -34,7 +41,7 @@ jsPlumb.ready(function() {
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
 	});
-
+/*
 	jsPlumb.connect({
 		source: item_2,
 		target: item_3,
@@ -106,7 +113,7 @@ jsPlumb.ready(function() {
 		overlays:[
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
-	});	
+	});	*/
 
 
 	$(window).resize(function(){
@@ -114,4 +121,3 @@ jsPlumb.ready(function() {
 	});
 
 });
-*/

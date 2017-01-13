@@ -25,9 +25,13 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
 	font-weight: 100;
 	text-decoration: none;
 }
+
+/* box ***************************************************************/
 .content .box {
 	width: 400px;
 	height: 150px;
+
+	position: absolute;
 
 	margin: 0px;
 	padding: 20px;
@@ -36,6 +40,35 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
 	border-radius: 10px;
 	box-shadow: 0px 0px 7px rgba(0,0,0,.15);
 }
+.content .box ul.options {
+	list-style: none;
+    background-color: #f0ad4e;
+    border-radius: 0px 0px 0px 5px;
+
+	/*position: absolute;*/
+	float: right!important;
+	
+    right: 0px;
+    top: 0px;
+
+    margin: 0px;
+    padding: 0px;
+}
+.content .box ul.options li {
+	display: inline;
+    background-color: tomato;
+}
+.content .box ul.options li a {
+	color: #ffffff;
+    background-color: green;
+    margin: 0px 12px;
+}
+.content .box ul.options li a:hover {
+	color: #ffffff;
+	background-color: #ec971f;
+}
+
+/* footer ***************************************************************/
 footer {
 	margin: 0px;
 	padding: 5px;
