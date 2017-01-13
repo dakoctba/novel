@@ -28,8 +28,8 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
 
 /* box ***************************************************************/
 .content .box {
-	width: 400px;
-	/*height: 150px;*/
+	width: 406px;
+	height: 140px;
 
 	position: absolute;
 
@@ -87,11 +87,11 @@ footer a:hover {
 
 /* forms ***************************************************************/
 label {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 10px;
 	color: #8e8e8e;
 	font-family: 'Open Sans', sans-serif;
-}
-.box-group label {
-	padding-top: 5px;
 }
 .box-group button, .box-group input, .box-group textarea, .box-group select {
 	padding: 5px;
@@ -102,6 +102,10 @@ label {
 
 	margin: 5px;
 	border-radius: 5px;
+}
+.box-group textarea {
+	height: 67px;
+	width: 355px;
 }
 /************************************************************************
 header {
