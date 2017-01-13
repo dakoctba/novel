@@ -45,23 +45,23 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
     background-color: #f0ad4e;
     border-radius: 0px 0px 0px 5px;
 
-	/*position: absolute;*/
-	float: right!important;
-	
-    right: 0px;
-    top: 0px;
+	float: right;
+	display: block;
 
-    margin: 0px;
+    margin: -20px;
     padding: 0px;
 }
 .content .box ul.options li {
-	display: inline;
-    background-color: tomato;
+	float: left;
+	display: block;
 }
 .content .box ul.options li a {
+
+	position: relative;
+	display: block;
+	
 	color: #ffffff;
-    background-color: green;
-    margin: 0px 12px;
+    padding: 5px 10px;
 }
 .content .box ul.options li a:hover {
 	color: #ffffff;
