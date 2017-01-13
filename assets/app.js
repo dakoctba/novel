@@ -1,5 +1,4 @@
 var $draggable = $('.box').draggabilly({
-	containment: '.content',
 	grid: [14, 14]
 })
 
@@ -9,6 +8,9 @@ $draggable.on('dragMove', function(event, pointer, moveVector) {
 
 $draggable.on( 'dragEnd', function( event, pointer ) {
 	jsPlumb.repaintEverything();
+
+	var draggie = $(this).data('draggabilly');
+	console.log('top ['+draggie.position.y+'] :: left ['+draggie.position.x+']');
 })
 
 jsPlumb.ready(function() {
@@ -41,7 +43,7 @@ jsPlumb.ready(function() {
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
 	});
-/*
+
 	jsPlumb.connect({
 		source: item_2,
 		target: item_3,
@@ -113,7 +115,7 @@ jsPlumb.ready(function() {
 		overlays:[
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
-	});	*/
+	});
 
 
 	$(window).resize(function(){
