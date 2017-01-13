@@ -28,7 +28,7 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
 
 /* box ***************************************************************/
 .content .box {
-	width: 406px;
+	width: 336px;
 	height: 140px;
 
 	position: absolute;
@@ -62,7 +62,7 @@ header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
 .content .box ul.options li a {
 	position: relative;
 	display: block;
-	
+
 	color: #ffffff;
     padding: 5px 10px;
 }
@@ -97,7 +97,7 @@ label {
 	padding: 5px;
 	font-size: 12px;
 	color: #333333;
-
+	background-color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 
 	margin: 5px;
@@ -105,7 +105,7 @@ label {
 }
 .box-group textarea {
 	height: 67px;
-	width: 310px;
+	width: 270px;
 }
 /************************************************************************
 header {
