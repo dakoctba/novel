@@ -1,3 +1,9 @@
+var $draggable = $('.draggable').draggabilly({
+	containment: '.content',
+	grid: [14, 14]
+})
+
+/*
 jsPlumb.ready(function() {
 	//jsPlumb.setContainer($("#content"));
 	jsPlumb.setContainer("content");
@@ -108,3 +114,4 @@ jsPlumb.ready(function() {
 	});
 
 });
+*/
