@@ -1,6 +1,6 @@
 var $draggable = $('.box').draggabilly({
 	grid: [14, 14]
-})
+});
 
 $draggable.on('dragMove', function(event, pointer, moveVector) {
   jsPlumb.repaintEverything();
