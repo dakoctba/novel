@@ -10,7 +10,6 @@
 
 	<link href="assets/layout.css" rel="stylesheet">
 	<link href="assets/app.css" rel="stylesheet">
-	<link href="bower_components/css-modal/build/modal.css" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +28,7 @@
 			<div id="item_1" class="box">
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -61,7 +60,7 @@
 			<div id="item_2" class="box">
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -93,7 +92,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -125,7 +124,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -157,7 +156,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -189,7 +188,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -221,7 +220,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -253,7 +252,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -289,17 +288,20 @@
 	</footer>
 -->
 
-	<section id="modal-options" class="modal--show" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
-	    <div class="modal-inner">
-	        <header id="modal-label">Connections</header>
-	        <div class="modal-content">Colocar os campos de configuração aqui</div>
-	        <footer>
-	        	<button>Save</button>
-	        </footer>
-	    </div>
-
-	    <a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a>
-	</section>
+	<div id="modal">
+		<div class="modal-content">
+			<div class="header">
+				<h2>Connections</h2>
+			</div>
+			<div class="copy">
+				<p>Colocar aqui o novo formulário</p>
+			</div>
+			<div class="cf footer">
+				<a href="#" class="btn">Close</a>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="bower_components/jsplumb/dist/js/jsplumb.min.js"></script>

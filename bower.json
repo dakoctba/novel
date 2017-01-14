@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "draggabilly": "^2.1.1",
-    "jsplumb": "^2.2.10",
-    "css-modal": "^1.5.0"
+    "jsplumb": "^2.2.10"
   }
 }
