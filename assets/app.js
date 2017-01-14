@@ -32,9 +32,6 @@ jsPlumb.ready(function() {
 	  	{ fill:"#8e8e8e" }]
 	});
 
-	var item_1 = $("#item_1");
-	var item_2 = $("#item_2");
-
 	jsPlumb.connect({
 		source: item_1,
 		target: item_2,
@@ -51,7 +48,7 @@ jsPlumb.ready(function() {
 		overlays:[
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
-	});	
+	});
 
 	jsPlumb.connect({
 		source: item_3,
@@ -60,7 +57,7 @@ jsPlumb.ready(function() {
 		overlays:[
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
-	});	
+	});
 
 	jsPlumb.connect({
 		source: item_4,
@@ -87,7 +84,7 @@ jsPlumb.ready(function() {
 		overlays:[
     		["PlainArrow", {width:7, length:7, location:[0, 0]}]
   		]
-	});	
+	});
 
 
 	jsPlumb.connect({
