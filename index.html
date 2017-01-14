@@ -10,11 +10,12 @@
 
 	<link href="assets/layout.css" rel="stylesheet">
 	<link href="assets/app.css" rel="stylesheet">
+	<link href="bower_components/css-modal/build/modal.css" rel="stylesheet">
 </head>
 <body>
 
 	<div class="wrapper">
-		<header>
+		<header class="page-header">
 			<h1><a href="#">novel</a></h1>
 			<ul>
 				<li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i> Dashboard</a></li>
@@ -28,7 +29,7 @@
 			<div id="item_1" class="box">
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -60,7 +61,7 @@
 			<div id="item_2" class="box">
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -92,7 +93,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -124,7 +125,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -156,7 +157,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -188,7 +189,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -220,7 +221,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -252,7 +253,7 @@
 
 				<ul class="options">
 					<!--<li><a href="#" title="Options"><i class="fa fa-cog" aria-hidden="true"></i></a></li>-->
-					<li><a href="#" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+					<li><a href="#modal-options" title="Connections"><i class="fa fa-link" aria-hidden="true"></i></a></li>
 				</ul>
 
 				<div class="box-group">
@@ -287,6 +288,18 @@
 		<span><a href="http://www.setbox.com.br">www.setbox.com.br</a></span>
 	</footer>
 -->
+
+	<section id="modal-options" class="modal--show" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+	    <div class="modal-inner">
+	        <header id="modal-label">Connections</header>
+	        <div class="modal-content">Colocar os campos de configuração aqui</div>
+	        <footer>
+	        	<button>Save</button>
+	        </footer>
+	    </div>
+
+	    <a href="#!" class="modal-close" title="Close this modal" data-close="Close" data-dismiss="modal">?</a>
+	</section>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="bower_components/jsplumb/dist/js/jsplumb.min.js"></script>

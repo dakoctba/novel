@@ -14,42 +14,42 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
 	padding: 0px;
 }
-header {
+header.page-header {
 	background-color: #666699;
 	margin: 0px;
 }
-header h1 {
+header.page-header h1 {
 	float: left;
 	position: relative;
 	display: block;
 	padding: 2px 10px;
 }
-header h1 a, header h1 a:hover, header h1 a:focus, header h1 a:active {
+header.page-header h1 a, header.page-header h1 a:hover, header.page-header h1 a:focus, header.page-header h1 a:active {
 	font-size: 24px;
 	color: #ffffff;
 	font-weight: 100;
 	text-decoration: none;
 }
-header ul {
+header.page-header ul {
 	display: block;
 	float: right;
 	list-style: none;
 	margin: 0px;
 }
-header ul li {
+header.page-header ul li {
 	float: left;
 	position: relative;
 	display: block;
 
 }
-header ul li a, header ul li a:focus, header ul li a:active {
+header.page-header ul li a, header.page-header ul li a:focus, header.page-header ul li a:active {
 	position: relative;
 	display: block;
 	padding: 10px 15px;
 	color: #ffffff;
 	text-decoration: none;
 }
-header ul li a:hover {
+header.page-header ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.2);
 	text-decoration: none;
 }
@@ -135,7 +135,7 @@ label {
 	width: 270px;
 }
 /************************************************************************
-header {
+header.page-header {
 text-align: center;
 border: 1px solid #e0e3e3;
 background-color: #ffffff;
